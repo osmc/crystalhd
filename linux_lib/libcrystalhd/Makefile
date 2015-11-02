@@ -16,7 +16,7 @@ BCGCC = g++
 ROOTDIR = ../..
 
 INCLUDES = -I./ -I/usr/include -I$(ROOTDIR)/include
-INCLUDES += -I$(ROOTDIR)/include/link
+INCLUDES += -I$(ROOTDIR)/include/link -I$(ROOTDIR)/driver/linux
 
 
 CPPFLAGS = -D__LINUX_USER__
