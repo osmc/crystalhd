@@ -2,7 +2,7 @@
 #  Broadcom Crystal HD (BCM970012) controller Makefile.
 #
 #
-KDIR = @KERN_DIR@
+KDIR:=$(shell pwd)/../../../
 
 
 INCLUDES  = -I$(KDIR)/include
